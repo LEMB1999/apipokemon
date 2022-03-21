@@ -1,0 +1,91 @@
+.img_pokebola{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.container_info_pokemon{
+    min-height:350px;
+    margin-left: 5px;
+}
+
+
+.container-pokedex{
+    position: relative;
+    width: 418px;
+    margin-left: auto;
+}
+
+#imgPokemon{
+    position:absolute;
+    width:250px;
+    top:20%;
+    left:20%;
+}
+
+#typePokemon{
+     position: absolute;
+     bottom:35px;
+     left:35%;
+}
+
+.alert{
+    width: 500px;
+    left:50%;
+    margin-left:-250px;
+    position: absolute;
+    bottom:10px;
+}
+
+@media (max-width:1000px){
+    .container-pokedex{
+         margin: 0 auto;
+    }
+    .form{
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width:450px){
+    #pokedex{
+        width:250px;
+        margin: 0px auto !important;
+    }
+
+    .container{
+        padding:0px !important;
+    }
+
+    .col-10{
+        width: 250px !important;
+    }
+
+    #imgPokemon{
+        top:2%;
+        left:20%;
+    }
+
+    #typePokemon{
+        bottom:15px;
+        left:40%;
+    }
+
+
+}
+
+@media (max-width:375px){ 
+ 
+    .container-pokedex{
+        max-width: 418px;
+        width: auto;
+    }
+
+    #imgPokemon{
+        top:2%;
+        left:10%;
+    }
+
+    #typePokemon{
+        bottom:15px;
+        left:35%;
+    }
+}
